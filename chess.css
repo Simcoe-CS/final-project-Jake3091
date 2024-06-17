@@ -1,0 +1,26 @@
+/* Board styles */
+#board {
+    display: grid;
+    grid-template-columns: repeat(8, 50px); /*8 colums*/
+    grid-template-rows: repeat(8, 50px); /*8 rows*/
+    width: 400px;
+    height: 400px;
+    border: 1px solid black; /* adds bord border*/
+}
+
+/*square styles */
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px; /* sizes of chess board pieces*/
+    cursor: pointer;
+}
+
+.light {
+    background-color: #769656;
+}
+
+.dark {
+    background-color:#ffffff;
+}
